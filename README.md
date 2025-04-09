@@ -40,19 +40,18 @@
 ####  \[{  \color{Blue} y_1(t) \; = \; - \frac { \sqrt 2 } {5} \; \sin ( \sqrt{2} \; t ) + \frac {\sqrt 3} {10} \; \sin \; ( 2 \; \sqrt 3 \; t )     }\]
 -->
 
-> **解此二階微分方程式。** 
-> 
-> **電機系的```訊號與系統```、機械系的```控制系統```、和土木系的```結構動力學```，都有相同的求解方法。** 
-> 
-> **譬如使用Laplace Transform、Fourier Transform、或是Z Transform等等。** 
-> 
-> **本例題是使用Laplace Transform求解。** 
-> 
-> ***空間維度【Space Dimension】有二個自由度Degree of Freedom(m = 2)，狀態維度【State Dimension】有二個自由度，即二階微分(r = 2)，時間維度【Time Dimension】是時間的函數，可以任意選取，故整個【系統矩陣】為(mXr)X(mXr)即4X4的實數矩陣，C#程式碼是引用Matrix_0類別庫，即程式碼的開頭是引用 ```using Matrix_0；```***    
+> **解此矩陣微分方程式(m=2,r=2)**
 >
-> ***系統[狀態]矩陣是實數，但系統特徵值和特徵向量是複數矩陣(Complex Matrix)，整個運算都是複數矩陣的計算，最後(SMS)輸出的結果可轉爲實數。***  
+> **電機系的```訊號與系統```、機械系的```控制系統```、和土木系的```結構動力學```，都有相同的求解方法。**
 >
-> ***輸出結果與視覺化的圖示，參見本儲存庫。*** 
+> **譬如```訊號與系統```使用Laplace Transform、Fourier Transform、或是Z Transform等等。**
+>
+>
+> ***空間維度【Space Dimension】有二個自由度Degree of Freedom(m = 2)，狀態維度【State Dimension】有二個自由度，即二階微分(r = 2)，時間維度【Time Dimension】僅有一個連續性的時間自由度，可以任意選取時間，整體【系統矩陣】為(mXr)X(mXr)即4X4的實數矩陣，響應變數共有mX(r+1)個。C#程式碼的名稱空間(namespace)是引用```Matrix_0.dll```類別庫檔案，程式碼的開頭為```using Matrix_0；```***
+>
+> ***系統矩陣[A]是實數，但特徵矩陣[D]和模態矩陣[Q]，其預設值是複數矩陣(Complex Matrix)，整個運算都是使用複數矩陣的計算，最後輸出的結果雖然是複數，其虛數值為零，故可轉爲實數。***  
+>
+> ***輸出結果與視覺化的圖示，參見本儲存庫。***
 >
 
 ![](Images/Asterisk_01.png)
@@ -64,5 +63,7 @@
 ![](Images/25-04-09-03.png)
 
 ![](Images/25-04-09-04.png)
+
+![](Images/Asterisk_01.png)
 
 ##  
