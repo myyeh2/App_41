@@ -8,7 +8,6 @@
 ## \[{  \color{Green}  【Sharp \; Matrix \; Solver \quad \; S\; M\; S】 }\]
 -->  
 
-
 ![](Images/11-02-01.png)  
 <!--    
 #### \[{  \color{Brown} Dennis \; G. \; Zill  }\]
@@ -17,10 +16,7 @@
 # 
 -->  
 
-
---- 
-
-
+---  
 
 #  
 ![](Images/11-02-02.png)  
@@ -37,16 +33,12 @@
 ##### \[{   \color{Brown} 初始值@t = 0 \quad \begin{bmatrix} \dot{y_0}(t)\\ \dot{y_1}(t)\\ y_0(t)\\ y_1(t) \end{bmatrix} = \begin {bmatrix} 1 \\ -1 \\ 0 \\ 0  \end{bmatrix}   }\] 
 -->  
 
-
-
-
 ![](Images/11-01-03.png)  
 <!--    
 ###  \[{  \color{Blue}  解析後之狀態變數響應數學式如下 ：  }\]
 ####  \[{  \color{Blue} y_0(t) \; = \; - \frac { \sqrt 2 } { 10 } \; \sin ( \sqrt{2} \; t ) + \frac {\sqrt 3} {5} \; \sin \; ( 2 \; \sqrt 3 \; t )     }\]
 ####  \[{  \color{Blue} y_1(t) \; = \; - \frac { \sqrt 2 } {5} \; \sin ( \sqrt{2} \; t ) + \frac {\sqrt 3} {10} \; \sin \; ( 2 \; \sqrt 3 \; t )     }\]
---> 
-
+-->
 
 > **解此二階微分方程式。** 
 > 
@@ -61,6 +53,16 @@
 > ***系統[狀態]矩陣是實數，但系統特徵值和特徵向量是複數矩陣(Complex Matrix)，整個運算都是複數矩陣的計算，最後(SMS)輸出的結果可轉爲實數。***  
 >
 > ***輸出結果與視覺化的圖示，參見本儲存庫。*** 
-> 
+>
+
+![](Images/Asterisk_01.png)
+
+![](Images/25-04-09-01.png)
+
+![](Images/25-04-09-02.png)
+
+![](Images/25-04-09-03.png)
+
+![](Images/25-04-09-04.png)
 
 ##  
